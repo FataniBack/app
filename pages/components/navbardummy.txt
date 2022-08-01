@@ -1,0 +1,83 @@
+import React from 'react'
+
+const Demo = () => {
+  return (
+    <div>
+  <div className="relative w-screen flex justify-start items-center bg-indigo-600 text-white drop-shadow-md">
+    {/* Logo */}
+    <div className="px-3 md:px-10 text-2xl text-white font-extrabold italic">
+      Kinda <span className="text-amber-400">Code</span>
+    </div>
+    <a href="#" className="px-5 py-4 hover:bg-amber-200 hover:text-black">Home</a>
+    <a href="#" className="px-5 py-4 hover:bg-amber-200 hover:text-black">Contact</a>
+    {/* Mega menu here */}
+    <div className="group">
+      <button className="px-5 py-4 group-hover:bg-amber-200 group-hover:text-black">Dropdown
+        ↓
+      </button>
+      <div className="hidden group-hover:flex flex-col absolute left-0 p-10 w-full bg-amber-200 text-black duration-300">
+        <div className="pb-5">
+          <h2 className="text-3xl">Mega Menu</h2>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+          <div className="flex flex-col">
+            <h3 className="mb-4 text-xl">Category 1</h3>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 1</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 2</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 3</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 4</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 5</a>
+          </div>
+          <div className="flex flex-col">
+            <h3 className="mb-4 text-xl">Category 2</h3>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 1</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 2</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 3</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 4</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 5</a>
+          </div>
+          <div className="flex flex-col">
+            <h3 className="mb-4 text-xl">Category 3</h3>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 1</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 2</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 3</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 4</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 5</a>
+          </div>
+          <div className="flex flex-col">
+            <h3 className="mb-4 text-xl">Category 4</h3>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 1</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 2</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 3</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 4</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 5</a>
+          </div>
+          <div className="flex flex-col">
+            <h3 className="mb-4 text-xl">Category 5</h3>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 1</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 2</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 3</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 4</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 5</a>
+          </div>
+          <div className="flex flex-col">
+            <h3 className="mb-4 text-xl">Category 6</h3>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 1</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 2</a>
+            <a href="#" className="hover:underline hover:text-red-600">Sample Link 3</a>
+          </div>
+        </div>
+      </div>
+    </div> {/* end of dropdown */}
+  </div>
+  {/* Other content */}
+  <div className="container p-10">
+    <h1 className="text-4xl">Welcome to KindaCode.com</h1>
+    <h3 className="mt-10 text-xl">Mega Menu Example, Built with Tailwind CSS</h3>
+  </div>
+</div>
+
+  )
+}
+
+export default Demo
